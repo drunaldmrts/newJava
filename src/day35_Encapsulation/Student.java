@@ -64,4 +64,14 @@ public class Student {
         }
         this.grade = grade;
     }
+
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", grade=" + grade +
+                ", schoolName='" + schoolName + '\'' +
+                '}';
+    }
 }

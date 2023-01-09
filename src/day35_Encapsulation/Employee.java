@@ -57,4 +57,13 @@ public class Employee {
         }
         this.salary = salary;
     }
+
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", salary=" + salary +
+                '}';
+    }
 }

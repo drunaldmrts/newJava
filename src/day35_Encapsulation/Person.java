@@ -37,7 +37,14 @@ public class Person {
         System.out.println(name+" is drinking "+drink);
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", language='" + language + '\'' +
+                '}';
+    }
 }
 

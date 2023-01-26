@@ -3,7 +3,7 @@ package day43_Abstraction.CarTask;
 public abstract class Car {
 
     private String brand,model,color;
-    private final int year;
+    private int year;
     private double price;
 
     public Car(String brand, String model, String color, int year, double price) {
@@ -64,7 +64,6 @@ public abstract class Car {
 
     public abstract void start();
 
-    public abstract void stop();
 
     public String toString() {
         return "Car{" +

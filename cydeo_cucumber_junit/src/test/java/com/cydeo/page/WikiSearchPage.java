@@ -15,4 +15,7 @@ public class WikiSearchPage {
     public WebElement searchBox;
     @FindBy(xpath = "//button[@class=\"pure-button pure-button-primary-progressive\"]")
     public WebElement searchButton;
+
+    @FindBy(id="firstHeading")
+    public WebElement mainHeader;
 }

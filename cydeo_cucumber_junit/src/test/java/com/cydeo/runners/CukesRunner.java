@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/cydeo/step_definitions",
         dryRun= false,
-        tags="@scenarioOutline"  //@employee and @admin--> only admin //@Regression and not @student--> librarian and admin
+        tags="@wip"  //@employee and @admin--> only admin //@Regression and not @student--> librarian and admin
 )
 public class CukesRunner {
 }
